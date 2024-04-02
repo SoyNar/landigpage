@@ -42,3 +42,46 @@ li{
 .nav a{
     text-decoration: none;
 }
+/* seccion principal */
+.prestacion{
+    background: var(--blue-color);
+    margin:2em;
+    display: flex;
+    padding:2em;
+    
+}
+.container-pres{
+    width: 70%;
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.container-pres p{
+    text-align: center;
+    margin-bottom: 2em;
+   
+}
+.cont-img-main{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-main{
+    width: 90%;
+}
+.container-pres button{
+    width: 30%;
+    height: 3em;
+}
+/* Mosaico  */
+.mosaico{
+    
+}
