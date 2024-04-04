@@ -181,3 +181,23 @@ li{
     border-radius: 0.3em;
 } 
 /* Seccion Artistas                  */
+.container-arist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap:1em;
+    margin:2em;
+}
+
+.img-arist{
+    width: 20%;
+
+    
+}
+.img-arist img{
+    width: 100%;
+    height: 15em;
+    border-radius: 20em;
+
+}
