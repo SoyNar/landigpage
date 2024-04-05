@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landingPage</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -15,35 +16,67 @@
         <!-- barra de navegación -->
         <nav class="nav">
             <div class="container-logo">
-                <img src="" alt="logo">
+                <img src="/public/img/logo.webp" alt="logo">
                 <h2>R&BDESING</h2>
             </div>
 
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Artist</a></li>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#container-arist">Artist</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="main">
+    <main class="main" id="main">
         <!-- Seccion Principal -->
-        <section class="prestacion">
-            <article class="container-pres">
-                <h1 class="title">The music is at all</h1>
+        <section class="information">
+            <article class="container-information">
 
-                <p class="introductorio">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto molestiae et, provident, earum
-                    velit dicta optio magnam dolores distinctio quis vel sequi laboriosam. Rem libero ipsam distinctio
-                    omnis reprehenderit. Voluptate. </p>
-                <button>Learn More</button>
-            </article>
-
-            <div class="cont-img-main">
-                <!-- <img src="./public/img/guitar.jpeg" alt="img" class="img-main"> -->
+                <div class="container">
+                <h1 class="title">The music is in everything</h1>
+                <h2>The music is in everything</h2>
             </div>
+            <div class="titles">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LWuN_F0YhSw?si=jlCl-ch6xgFt7Cqd&amp;start=173" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+           <div class="titles">
+            <h2>Beyonce</h2>
+           </div>
+        </article>
+           <article class="news">
+            
+            
+            <h3>INICIOS</h3>
+            <p>Tras la decadencia del funk a finales de los 80, el Rhythm and Blues se convirtió en parte fundamental de la escena musical norteamericana </p>
+            <hr>
+            
+            <h3>HISTORIA.</h3>
+            <p>A lo largo de su historia, el Rhythm and Blues ha sufrido modificaciones en su estilo </p>
+            <hr>
+            <h3>EXPONENTES</h3>
+            <p>El Rhythm and Blues fue representado por solistas de la talla de Ray Charles, James Brown y Chuck Berry.</p>
 
+           </article>
+           <article class="down">
+            <!-- <article class="contain">
+               <img src="" alt=""> 
+                <h3></h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusantium fugit consequuntur eius quasi nemo reiciendis tempora voluptas exercitationem dicta?</p>
+            </article>
+            <article class="contain">
+                <img src="" alt=""> 
+                <h3></h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusantium fugit consequuntur eius quasi nemo reiciendis tempora voluptas exercitationem dicta?</p>
+            </article>
+            <article class="contain ">
+                <img src="" alt=""> 
+                <h3></h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusantium fugit consequuntur eius quasi nemo reiciendis tempora voluptas exercitationem dicta?</p>
+            </article> -->
+
+           </article>
         </section>
         <!-- Seccion Mosaicos -->
 
@@ -54,7 +87,7 @@
 
             <div class="container-imagene">
                 <div class="imagene1">
-                  <h2>Music</h2>
+                    <h2>Music</h2>
                 </div>
                 <div class="imagene2">
                     <h2>R&B</h2>
@@ -63,60 +96,74 @@
         </div>
 
         <!-- Seccion Artistas -->
-        <section class="container-arist">
-            
+        <section class="container-arist" id="container-arist">
 
-                <div class="img-arist">
-               
-                    <img src="./public/img/aretha.webp" alt="">
-                
-                
+
+            <div class="img-arist">
+
+                <img src="./public/img/aretha.webp" alt="">
+
+                <div class="text">
                     <h3>Jazz</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolore et sint quisquam, expedita
-                        dolorem.</p>
-                    </div>      
-                    
-                    <div class="img-arist">
-                    <img src="/public/img/jazz.webp" alt="">
-               
-               
-                    <h3>Nombre arist</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolore et sint quisquam, expedita
-                        dolorem.</p>
-                    </div>
-                
-                    <div class="img-arist">
-                    <img src="/public/img/cantante.jpg" alt="">
-               
-                
-                    <h3>Nombre arist</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolore et sint quisquam, expedita
-                        dolorem.</p>
-                    </div>
-               
-            
+                    <p>Disfruta el jazz</p>
+                </div>
+            </div>
+
+
+            <div class="img-arist">
+                <img src="/public/img/jazz.webp" alt="">
+
+                <div class="text">
+                    <h3>Soul</h3>
+                    <p>Disfruta la mùsica.</p>
+                </div>
+            </div>
+
+            <div class="img-arist">
+                <img src="/public/img/cantante.jpg" alt="">
+
+                <div class="text">
+                    <h3>R%B</h3>
+                    <p>Disfruta el R&B.</p>
+                </div>
+            </div>
+
+
         </section>
     </main>
     <!-- Seccion footer -->
     <footer>
-        <section class="navegacion">
-            <nav class="nav-footer">
-                <img src="" alt="logo">
+        <nav class="nav">
+            <div class="container-logo">
+                <img src="/public/img/logo.webp" alt="logo">
                 <h2>R&BDESING</h2>
+            </div>
 
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Artist</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Artist</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
         </section>
         <section class="derechos-autor">
-            <p>Narciris Mena Colombia 2024</p>
-        </section>
-        <section class="redes-sociales">
-
-        </section>
+            <article class="autor tex">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis animi deleniti iure!</p>
+            
+        </article>
+        
+        <article class="autor icons">
+            <ul>
+               <a href=""><i class="bi bi-instagram"></i></a> 
+                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href=""><i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-youtube"></i></a>
+            </ul>
+            
+            
+        </article>
+        <p>Narciris Mena Colombia 2024</p>
+    </section>
     </footer>
 </body>
 
